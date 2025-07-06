@@ -1,0 +1,8 @@
+{
+  "chrome_extension_name": {
+    "message": "chrome-extension-boilerplate"
+  },
+  "chrome_extension_description": {
+    "message": "chrome-extension-boilerplate is a boilerplate for Chrome extensions using modern web technologies."
+  }
+}

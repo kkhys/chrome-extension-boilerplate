@@ -15,20 +15,20 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
       '@types/chrome':
-        specifier: 0.0.331
-        version: 0.0.331
+        specifier: 0.1.0
+        version: 0.1.0
       '@types/node':
-        specifier: 24.0.11
-        version: 24.0.11
+        specifier: 24.0.13
+        version: 24.0.13
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vite:
-        specifier: 7.0.3
-        version: 7.0.3(@types/node@24.0.11)
+        specifier: 7.0.4
+        version: 7.0.4(@types/node@24.0.13)
       vite-plugin-zip-pack:
         specifier: 1.2.4
-        version: 1.2.4(vite@7.0.3(@types/node@24.0.11))
+        version: 1.2.4(vite@7.0.4(@types/node@24.0.13))
 
 packages:
 
@@ -357,8 +357,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/chrome@0.0.331':
-    resolution: {integrity: sha512-/xgmrxXME8LQQC7YpNpCVYqiJiF5Rcin8tOE4kz8Hrhu8PchDK0CK0r/HzDOHc4B/AEq7T0KKrgHh74/jWNKpA==}
+  '@types/chrome@0.1.0':
+    resolution: {integrity: sha512-Mq712O2Ykw+EVAC5D1wt4Ot4v2rfp7nDosmxhIMKULJAa8o7ELeO88rWzRasaB+AYnqayzfX/XSWaDKBfk1rYQ==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -372,8 +372,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.0.11':
-    resolution: {integrity: sha512-CJV8eqrYnwQJGMrvcRhQmZfpyniDavB+7nAZYJc6w99hFYJyFN3INV1/2W3QfQrqM36WTLrijJ1fxxvGBmCSxA==}
+  '@types/node@24.0.13':
+    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -671,8 +671,8 @@ packages:
     peerDependencies:
       vite: '>=2.x'
 
-  vite@7.0.3:
-    resolution: {integrity: sha512-y2L5oJZF7bj4c0jgGYgBNSdIu+5HF+m68rn2cQXFbGoShdhV1phX9rbnxy9YXj82aS8MMsCLAAFkRxZeWdldrQ==}
+  vite@7.0.4:
+    resolution: {integrity: sha512-SkaSguuS7nnmV7mfJ8l81JGBFV7Gvzp8IzgE8A8t23+AxuNX61Q5H1Tpz5efduSN7NHC8nQXD3sKQKZAu5mNEA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -931,7 +931,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.2':
     optional: true
 
-  '@types/chrome@0.0.331':
+  '@types/chrome@0.1.0':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
@@ -946,7 +946,7 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.0.11':
+  '@types/node@24.0.13':
     dependencies:
       undici-types: 7.8.0
 
@@ -1280,12 +1280,12 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-zip-pack@1.2.4(vite@7.0.3(@types/node@24.0.11)):
+  vite-plugin-zip-pack@1.2.4(vite@7.0.4(@types/node@24.0.13)):
     dependencies:
       jszip: 3.10.1
-      vite: 7.0.3(@types/node@24.0.11)
+      vite: 7.0.4(@types/node@24.0.13)
 
-  vite@7.0.3(@types/node@24.0.11):
+  vite@7.0.4(@types/node@24.0.13):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
@@ -1294,7 +1294,7 @@ snapshots:
       rollup: 4.44.2
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.0.11
+      '@types/node': 24.0.13
       fsevents: 2.3.3
 
   whatwg-encoding@3.1.1:

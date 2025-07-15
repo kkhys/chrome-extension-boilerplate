@@ -12,23 +12,23 @@ importers:
         specifier: 2.1.1
         version: 2.1.1
       '@crxjs/vite-plugin':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.3
+        version: 2.0.3
       '@types/chrome':
         specifier: 0.1.0
         version: 0.1.0
       '@types/node':
-        specifier: 24.0.13
-        version: 24.0.13
+        specifier: 24.0.14
+        version: 24.0.14
       typescript:
         specifier: 5.8.3
         version: 5.8.3
       vite:
         specifier: 7.0.4
-        version: 7.0.4(@types/node@24.0.13)
+        version: 7.0.4(@types/node@24.0.14)
       vite-plugin-zip-pack:
         specifier: 1.2.4
-        version: 1.2.4(vite@7.0.4(@types/node@24.0.13))
+        version: 1.2.4(vite@7.0.4(@types/node@24.0.14))
 
 packages:
 
@@ -85,8 +85,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@crxjs/vite-plugin@2.0.2':
-    resolution: {integrity: sha512-BeaVEkCTmna2tzl5DL9nw1kxll1IpIFZ+wbl2+iILz4fNJy1xRD6c1nF8w8/CvrWUuPYTFTpyX9K+A30ISDXHA==}
+  '@crxjs/vite-plugin@2.0.3':
+    resolution: {integrity: sha512-OfAzERiwBlLg7u/+aRExJVYlxx95IaYOSEMJpMzXcKqWPNBMlA1ppwC2nelHTIvF5LWxn5CEp6zqlHjLH9QGtg==}
 
   '@esbuild/aix-ppc64@0.25.5':
     resolution: {integrity: sha512-9o3TMmpmftaCMepOdA5k/yDw8SfInyzWWTjYTFCX3kPSDJMROQTb8jg+h9Cnwnmm1vOzvxN7gIfB5V2ewpjtGA==}
@@ -372,8 +372,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.0.13':
-    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
+  '@types/node@24.0.14':
+    resolution: {integrity: sha512-4zXMWD91vBLGRtHK3YbIoFMia+1nqEz72coM42C5ETjnNCa/heoj7NT1G67iAfOqMmcfhuCZ4uNpyz8EjlAejw==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -756,7 +756,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.1.1':
     optional: true
 
-  '@crxjs/vite-plugin@2.0.2':
+  '@crxjs/vite-plugin@2.0.3':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -946,7 +946,7 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.0.13':
+  '@types/node@24.0.14':
     dependencies:
       undici-types: 7.8.0
 
@@ -1280,12 +1280,12 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-zip-pack@1.2.4(vite@7.0.4(@types/node@24.0.13)):
+  vite-plugin-zip-pack@1.2.4(vite@7.0.4(@types/node@24.0.14)):
     dependencies:
       jszip: 3.10.1
-      vite: 7.0.4(@types/node@24.0.13)
+      vite: 7.0.4(@types/node@24.0.14)
 
-  vite@7.0.4(@types/node@24.0.13):
+  vite@7.0.4(@types/node@24.0.14):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
@@ -1294,7 +1294,7 @@ snapshots:
       rollup: 4.44.2
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.0.13
+      '@types/node': 24.0.14
       fsevents: 2.3.3
 
   whatwg-encoding@3.1.1:

@@ -18,17 +18,17 @@ importers:
         specifier: 0.1.12
         version: 0.1.12
       '@types/node':
-        specifier: 24.5.1
-        version: 24.5.1
+        specifier: 24.5.2
+        version: 24.5.2
       typescript:
         specifier: 5.9.2
         version: 5.9.2
       vite:
-        specifier: 7.1.5
-        version: 7.1.5(@types/node@24.5.1)
+        specifier: 7.1.7
+        version: 7.1.7(@types/node@24.5.2)
       vite-plugin-zip-pack:
         specifier: 1.2.4
-        version: 1.2.4(vite@7.1.5(@types/node@24.5.1))
+        version: 1.2.4(vite@7.1.7(@types/node@24.5.2))
 
 packages:
 
@@ -372,8 +372,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.5.1':
-    resolution: {integrity: sha512-/SQdmUP2xa+1rdx7VwB9yPq8PaKej8TD5cQ+XfKDPWWC+VDJU4rvVVagXqKUzhKjtFoNA8rXDJAkCxQPAe00+Q==}
+  '@types/node@24.5.2':
+    resolution: {integrity: sha512-FYxk1I7wPv3K2XBaoyH2cTnocQEu8AOZ60hPbsyukMPLv5/5qr7V1i8PLHdl6Zf87I+xZXFvPCXYjiTFq+YSDQ==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -672,8 +672,8 @@ packages:
     peerDependencies:
       vite: '>=2.x'
 
-  vite@7.1.5:
-    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
+  vite@7.1.7:
+    resolution: {integrity: sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -947,7 +947,7 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.5.1':
+  '@types/node@24.5.2':
     dependencies:
       undici-types: 7.12.0
 
@@ -1281,12 +1281,12 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-zip-pack@1.2.4(vite@7.1.5(@types/node@24.5.1)):
+  vite-plugin-zip-pack@1.2.4(vite@7.1.7(@types/node@24.5.2)):
     dependencies:
       jszip: 3.10.1
-      vite: 7.1.5(@types/node@24.5.1)
+      vite: 7.1.7(@types/node@24.5.2)
 
-  vite@7.1.5(@types/node@24.5.1):
+  vite@7.1.7(@types/node@24.5.2):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.5.0(picomatch@4.0.3)
@@ -1295,7 +1295,7 @@ snapshots:
       rollup: 4.44.2
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.5.1
+      '@types/node': 24.5.2
       fsevents: 2.3.3
 
   whatwg-encoding@3.1.1:
